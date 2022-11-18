@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Menu"
+    android:orientation="vertical"
+    android:background="#6759FF">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:layout_marginLeft="100dp"
+         android:layout_marginRight="100dp"
+         android:scaleType="centerInside"
+         android:background="@drawable/ic_baseline_supervised_user_circle_24" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Phùng luân"
+         android:textSize="40dp"
+         android:textColor="@color/white"
+         android:textAlignment="center" />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="fpt123@gmail.com"
+         android:textSize="20dp"
+         android:textColor="@color/white"
+         android:textAlignment="center"/>
+ </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        android:backgroundTint="@null"
+        android:text="Khoản Thu"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"/>
+    <Button
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@null"
+        android:text="Khoản Chi"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"/>
+    <Button
+        android:id="@+id/thong_ke"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@null"
+        android:text="Thống kê"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khác"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@null"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:text="Giới thiệu"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:backgroundTint="@null"
+        android:text="Thoát"
+        android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"/>
+</LinearLayout>

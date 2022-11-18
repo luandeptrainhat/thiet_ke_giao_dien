@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Login"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/login" />
+
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@color/blue"
+         >
+
+         <EditText
+             android:id="@+id/username"
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:layout_alignParentTop="true"
+             android:layout_marginStart="10dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="10dp"
+             android:layout_marginBottom="10dp"
+             android:hint="Username"
+             android:textColor="@color/white"
+             android:textColorHint="@color/white" />
+
+         <EditText
+             android:id="@+id/password"
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:layout_below="@+id/username"
+             android:layout_marginStart="10dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="10dp"
+             android:layout_marginBottom="10dp"
+             android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+             android:hint="Password"
+             android:inputType="textPassword"
+             android:textColor="@color/white"
+             android:textColorHint="@color/white" />
+         <TextView
+             android:id="@+id/fogot"
+             android:layout_below="@+id/password"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAlignment="textEnd"
+             android:textColor="@color/white"
+             android:layout_margin="10dp"
+             android:textSize="18dp"
+             android:text="Fogot username or password"/>
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/fogot"
+             android:layout_margin="20dp"
+             android:backgroundTint="@color/white"
+             android:textColor="@color/blue"
+             android:text="Login"
+             android:textSize="30dp"/>
+     </RelativeLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
