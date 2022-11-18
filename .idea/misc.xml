@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/code/Github/thiet_ke_giao_dien/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/code/Github/thiet_ke_giao_dien/app/src/main/res/layout/activity_quanly_thuchi.xml" value="0.25" />
+        <entry key="..\:/code/Github/thiet_ke_giao_dien/app/src/main/res/layout/dialog_sua.xml" value="0.25" />
+        <entry key="..\:/code/Github/thiet_ke_giao_dien/app/src/main/res/layout/dialog_them_plthuchi.xml" value="0.25" />
         <entry key="..\:/code/Thiet_ke_giao_dien/ASM/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/code/Thiet_ke_giao_dien/ASM/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/code/Thiet_ke_giao_dien/ASM/app/src/main/res/layout/activity_menu.xml" value="0.25" />
