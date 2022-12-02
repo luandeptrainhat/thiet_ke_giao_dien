@@ -14,26 +14,29 @@
         android:theme="@style/Theme.ASM"
         tools:targetApi="31">
         <activity
-            android:name=".quanly_thuchi"
-            android:exported="false" />
+            android:name=".activity.quanly_thuchi"
+            android:exported="true" />
         <activity
             android:name=".activity.Thong_ke"
             android:exported="true" />
         <activity
             android:name=".activity.Menu"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".activity.Login"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
