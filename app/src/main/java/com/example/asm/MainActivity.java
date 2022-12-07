@@ -10,13 +10,16 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 
 
+import com.example.asm.activity.Login;
 import com.example.asm.fragment.ThuChiFragment;
 import com.example.asm.fragment.gioi_thieu_fragment;
+import com.example.asm.fragment.login_fragment;
 import com.example.asm.fragment.thongke_fragment;
 import com.google.android.material.navigation.NavigationView;
 
@@ -68,7 +71,9 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new gioi_thieu_fragment();
                         break;
                     case R.id.menuthoat:
-//                        finish();
+                        fragment = new login_fragment();
+
+                        finish();
                         break;
                 }
 

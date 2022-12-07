@@ -71,6 +71,7 @@
              android:text="Login"
              android:textColor="@color/blue"
              android:textSize="30dp" />
+
      </RelativeLayout>
 
 

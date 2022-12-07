@@ -37,6 +37,7 @@ public class Login extends AppCompatActivity {
                 }else  {
                     Toast.makeText(Login.this, "Sai tài khoản hoặc mật khẩu "+edtPass.getText(), Toast.LENGTH_SHORT).show();
                 }
+                btnLogin.setText("Thoát");
             }
         });
     }
