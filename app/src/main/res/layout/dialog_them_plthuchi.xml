@@ -5,38 +5,44 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/txtTieuDe"
         android:paddingTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:lineHeight="30dp"
         android:lineSpacingExtra="8sp"
-        android:text="Thêm "
-
+        android:text="THÊM/ SỬA"
+        android:background="#DCC53C"
+        android:textColor="@color/white"
         android:textAlignment="center"
         android:textSize="40sp" />
     <EditText
+        android:id="@+id/edtTenKhoan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tiêu đề "
-        android:layout_marginTop="100dp"
+        android:hint="Tên "
+        android:layout_marginTop="0dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"/>
 
     <EditText
+        android:id="@+id/edtNgay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ngày"
+        android:hint="Nhập ngày"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"/>
     <EditText
+        android:id="@+id/edtTien"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Số tiền"
+        android:hint="Nhập tiền"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"/>
-    <EditText
+    <Spinner
+        android:id="@+id/spnLoai"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Miêu tả"
@@ -44,22 +50,24 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"/>
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center">
         <Button
+            android:id="@+id/btnThemSua"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thêm"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="180dp"
+            android:text="Thêm/sửa"
+            android:layout_marginEnd="10dp"
             />
 
         <Button
+            android:id="@+id/btnHuySua"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"
+
             android:text="Hủy" />
     </LinearLayout>
 </LinearLayout>

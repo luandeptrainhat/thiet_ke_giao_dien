@@ -9,12 +9,14 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 
 
 import com.example.asm.fragment.ThuChiFragment;
+import com.example.asm.fragment.gioi_thieu_fragment;
 import com.example.asm.fragment.thongke_fragment;
 import com.google.android.material.navigation.NavigationView;
 
@@ -63,8 +65,10 @@ public class MainActivity extends AppCompatActivity {
 //                        Toast.makeText(MainActivity.this, "có", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.menugioiThieu:
+                        fragment = new gioi_thieu_fragment();
                         break;
                     case R.id.menuthoat:
+//                        finish();
                         break;
                 }
 

@@ -13,6 +13,11 @@ public class Loai {
         this.trangThai = trangThai;
     }
 
+    public Loai(String tenLoai, int trangThai) {
+        this.tenLoai = tenLoai;
+        this.trangThai = trangThai;
+    }
+
     public int getIdLoai() {
         return idLoai;
     }
