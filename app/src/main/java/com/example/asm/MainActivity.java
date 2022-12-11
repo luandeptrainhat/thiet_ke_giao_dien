@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                 }
 
-               FragmentManager fragmentManager = getSupportFragmentManager();
+                FragmentManager fragmentManager = getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.linearLayout, fragment).commit();
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return false;
